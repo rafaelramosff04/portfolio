@@ -103,7 +103,7 @@ h1, h2 { margin: 0; font-weight: 400; line-height: 1.05; }
   align-items: center;
   gap: 40px;
   padding: 140px var(--gutter) 200px;
-  background: linear-gradient(160deg, #5A4BC4 0%, var(--indigo) 45%, #7A5CD8 100%);
+  background: linear-gradient(160deg, var(--indigo) 0%, #3F63CC 55%, #4C8BF5 100%);
   color: var(--white);
   overflow: hidden;
 }
@@ -116,7 +116,7 @@ h1, h2 { margin: 0; font-weight: 400; line-height: 1.05; }
   pointer-events: none;
 }
 .blob--one { width: 520px; height: 520px; top: -160px; right: -120px; }
-.blob--two { width: 340px; height: 340px; bottom: 60px; left: -120px; background: rgba(169, 139, 234, 0.25); }
+.blob--two { width: 340px; height: 340px; bottom: 60px; left: -120px; background: rgba(120, 170, 255, 0.25); }
 
 .hero__copy { position: relative; z-index: 1; }
 
@@ -215,7 +215,7 @@ section h2 {
 
 /* ---------- Contato ---------- */
 .contact {
-  background: linear-gradient(160deg, var(--indigo), #4B3FB0);
+  background: linear-gradient(160deg, var(--indigo) 0%, #3F63CC 55%, #4C8BF5 100%);
   color: var(--white);
   text-align: left;
 }
