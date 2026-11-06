@@ -185,7 +185,7 @@ section h2 {
   width: fit-content;
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
   line-height: 1.15;
   text-decoration: none;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
